@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="component">
+        <div class="navbar">
+            <ul class="nav-list">
+                <li><button class="nav-list-btn" id="homeBtn">Home</button></li>
+                <li><button class="nav-list-btn" id="skillBtn">Skill</button></li>
+                <li><button class="nav-list-btn" id="projectsBtn">Projects</button></li>
+                <li><button class="nav-list-btn" id="contactBtn">Contact</button></li>
+            </ul>
+        </div>
+        <div class="home" id="home">
+            <div class="para">
+                <span id="hello">Hello,</span>
+                <p id="home-text">I'm <span id="name">Manan Jain</span> ,<br> Website designer</p>
+                <p id="home-para">I am a second-year Information Technology student at Dwarkadas J. Sanghvi College of
+                    Engineering, passionate about technology and problem-solving. Alongside my academic focus on
+                    programming, database management, and software development, I have a strong interest in web
+                    development, creating responsive and user-friendly websites. I enjoy exploring new tools, working on
+                    practical projects, and enhancing my skills to stay aligned with industry trends. My goal is to
+                    apply my knowledge to develop innovative solutions and grow as a skilled IT professional.</p>
+                <img class="bg-image" src="asset/IMG_6081.png" alt="Background Image">
+                <div class="flex">
+                    <button id="home-btn">GET IN TOUCH <img src="asset/arrow.png" alt=""></button>
+                    <a href="https://www.instagram.com/_jain_manan" target="_blank">
+                        <img class="app-btn" src="asset/instagram.png" alt="">
+                    </a>
+                    <a href="https://www.linkedin.com/in/manan-jain-8a759821a" target="_blank">
+
+                        <img class="app-btn" src="asset/linkedin.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="slide" id="about">
+            <h1 class="heading">Skills</h1>
+            <div class="flex-skill">
+                <div class="skill">
+                    <div class="outer">
+                        <div class="inner">
+                            <div id="number1" class="number">
+                                65%;
+                            </div>
+                        </div>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#e91e63" />
+                                <stop offset="100%" stop-color="#673ab7" />
+                            </linearGradient>
+                        </defs>
+                        <circle cx="80" cy="80" r="70" stroke-linecap="round" class="circle" id="htmlcircle" />
+                    </svg>
+                    <h2 class="skill-name">Html</h2>
+
+                </div>
+                <div class="skill">
+                    <div class="outer">
+                        <div class="inner">
+                            <div id="number2" class="number">
+                                70%;
+                            </div>
+                        </div>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#e91e63" />
+                                <stop offset="100%" stop-color="#673ab7" />
+                            </linearGradient>
+                        </defs>
+                        <circle cx="80" cy="80" r="70" stroke-linecap="round" class="circle" id="csscircle" />
+                    </svg>
+                    <h2 class="skill-name">Css</h2>
+
+                </div>
+                <div class="skill">
+                    <div class="outer">
+                        <div class="inner">
+                            <div id="number3" class="number">
+                                50%;
+                            </div>
+                        </div>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#e91e63" />
+                                <stop offset="100%" stop-color="#673ab7" />
+                            </linearGradient>
+                        </defs>
+                        <circle cx="80" cy="80" r="70" stroke-linecap="round" class="circle" id="jscircle" />
+                    </svg>
+                    <h2 class="skill-name">Javascript</h2>
+
+                </div>
+            </div>
+            <div class="otherskills">
+                <p class="otherskills-para">
+                    <span class="otherskills-head">💻 Technical Skills</span><br>
+                    # Programming Languages: Java, C, JavaScript <br>
+                    # Data Structures & Algorithms (DSA) <br>
+                    # Operating Systems basics<br>
+                    # Problem-solving & debugging
+                </p>
+                <p class="otherskills-para">
+                    <span class="otherskills-head">🧠 Soft Skills</span><br>
+                    # Team collaboration<br>
+                    # Communication skills<br>
+                    # Time management<br>
+                    # Critical thinking & Quick learning<br>
+                </p>
+
+            </div>
+        </div>
+        <div class="slide" id="projects">
+            <h1 class="heading">Recent Projects</h1>
+            <div class="flex-skill">
+                <div class="card">
+                    <img src="asset/toDoImg.jpeg" alt="" class="img">
+                    <h3>To-do List</h3>
+                    <button class="view-project-btn"><a href="https://github.com/MANAN-JAIN-12/ToDoList.git"
+                            target="_blank">
+                            View Project
+                        </a>
+                    </button>
+                </div>
+                <div class="card">
+                    <img src="asset/notesImg.jpeg" alt="" class="img">
+                    <h3>Notes App</h3>
+                    <button class="view-project-btn"><a href="https://github.com/MANAN-JAIN-12/Notes-app.git"
+                            target="_blank">
+                            View Project
+                        </a>
+                    </button>
+                </div>
+                <div class="card">
+                    <img src="asset/wimg.jpg" alt="" class="img" id="wimg">
+                    <h3>Weather App</h3>
+                    <button class="view-project-btn" id="weather-btn"><a href="https://github.com/MANAN-JAIN-12/Weather-App.git"
+                            target="_blank">
+                            View Project
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide" id="contact-container">
+            <h1 class="heading">Contact Us</h1>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..."
+                    required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
